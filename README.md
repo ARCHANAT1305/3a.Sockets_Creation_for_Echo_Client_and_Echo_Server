@@ -8,7 +8,10 @@ Sockets Links.
 3. Send message to the client and receive the message from the client using the Socket module in
  server .
 4. Send and receive the message using the send function in socket.
-## PROGRAM
+## PROGRAM:
+DEVELOPED BY :ARCHANA T
+
+REGISTER NUMBER:212223240013
 ### CLIENT:
 ```import socket
 s=socket.socket()
@@ -29,7 +32,7 @@ while True:
  ClientMessage=c.recv(1024).decode()
  c.send(ClientMessage.encode())
 ```
-## OUPUT
+## OUTPUT:
 ![image](https://github.com/ARCHANAT1305/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/145975189/ab610852-499c-484a-80d5-fb772ff409f9)
 
 ## RESULT
